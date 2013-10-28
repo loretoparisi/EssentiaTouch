@@ -2095,6 +2095,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2112,7 +2113,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv6";
+				VALID_ARCHS = armv7;
 			};
 			name = Debug;
 		};
@@ -2134,6 +2135,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2145,7 +2147,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 armv6";
+				VALID_ARCHS = armv7;
 			};
 			name = Release;
 		};
@@ -2159,27 +2161,22 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/libs/**";
+				FRAMEWORK_SEARCH_PATHS = "";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EssentiaTouch/EssentiaTouch-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/libs/**";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/EssentiaTouch/fftw/**";
 				INFOPLIST_FILE = "EssentiaTouch/EssentiaTouch-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/libs/**",
-					"$(SRCROOT)/libs/libavcoded",
-					"$(SRCROOT)/libs/tnt",
-					/Users/loreto/Projects/iOS/AUDIO/EssentiaTouch/EssentiaTouch/Classes/libs,
-					/Users/loreto/Projects/iOS/AUDIO/EssentiaTouch/EssentiaTouch/libs,
-					/Users/loreto/Projects/iOS/AUDIO/EssentiaTouch/EssentiaTouch/fftw,
+					"$(SRCROOT)/EssentiaTouch/fftw/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = NO;
-				VALID_ARCHS = "armv7 armv6";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -2194,27 +2191,22 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/libs/**";
+				FRAMEWORK_SEARCH_PATHS = "";
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EssentiaTouch/EssentiaTouch-Prefix.pch";
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/libs/**";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/EssentiaTouch/fftw/**";
 				INFOPLIST_FILE = "EssentiaTouch/EssentiaTouch-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/libs/**",
-					"$(SRCROOT)/libs/libavcoded",
-					"$(SRCROOT)/libs/tnt",
-					/Users/loreto/Projects/iOS/AUDIO/EssentiaTouch/EssentiaTouch/Classes/libs,
-					/Users/loreto/Projects/iOS/AUDIO/EssentiaTouch/EssentiaTouch/libs,
-					/Users/loreto/Projects/iOS/AUDIO/EssentiaTouch/EssentiaTouch/fftw,
+					"$(SRCROOT)/EssentiaTouch/fftw/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = NO;
-				VALID_ARCHS = "armv7 armv6";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
