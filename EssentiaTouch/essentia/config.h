@@ -36,7 +36,7 @@
  * little bit, but not that much really.
  */
 #ifndef DEBUGGING_ENABLED
-#define DEBUGGING_ENABLED 1
+#define DEBUGGING_ENABLED 0
 #endif
 
 
@@ -46,7 +46,7 @@
  * compiling the python bindings.
  */
 #ifndef ESSENTIA_EXPORTS
-#define ESSENTIA_EXPORTS 1
+#define ESSENTIA_EXPORTS 0
 #endif
 
 
