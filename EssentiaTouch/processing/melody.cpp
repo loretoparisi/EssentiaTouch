@@ -30,14 +30,46 @@ void Melody::shutDownEssentia() {
     
 }
 
-void Melody::calculatePredominantMelody(float* _audio, float* output) {
+void Melody::calculateOnset(float*_audio,float* output, int numSamples) {
+
+    Real onsetRate;
+    std::vector<Real> onsets;
+    
+    std::vector<Real> audio, unused;
+    
+    for(int i=0; i< numSamples; i++) {
+        essentia::Real r = _audio[i];
+        audio.push_back( r );
+    }
+    
+    Algorithm* extractoronsetrate = AlgorithmFactory::create("OnsetRate");
+    
+    extractoronsetrate->input("signal").set(audio);
+    extractoronsetrate->output("onsets").set(onsets);
+    extractoronsetrate->output("onsetRate").set(onsetRate);
+    
+    extractoronsetrate->compute();
+    
+    printf("onsetRate: %f",onsetRate);
+    
+    for (int i = 0; i<onsets.size(); i++)
+    {
+        printf("\n%f",onsets[i]);
+        output[i]=onsets[i];
+    }
+    
+    delete extractoronsetrate;
+    
+}
+
+void Melody::calculatePredominantMelody(float* _audio, float* output, int numSamples) {
     
     
     
     /////// PARAMS //////////////
     // don't change these default values as they guarantee that pitch extractor output
     // is correct, no tests were done on other values
-    int framesize = 1024;
+    int framesize = 2048;
     int hopsize = 128;
     int sr = 44100;
     
@@ -53,8 +85,14 @@ void Melody::calculatePredominantMelody(float* _audio, float* output) {
                                                                       "sampleRate", sr);
     
     // data storage
-    //essentia::Pool pool;
-    std::vector<essentia::Real> audio = ( std::vector<essentia::Real>)*_audio;
+    essentia::Pool pool;
+    
+    std::vector<essentia::Real> audio;
+    
+    for(int i=0; i< numSamples; i++) {
+        essentia::Real r = _audio[i];
+        audio.push_back( r );
+    }
     
     /// TODO: here we have to fill the real audio vector
     
@@ -70,22 +108,19 @@ void Melody::calculatePredominantMelody(float* _audio, float* output) {
     predominantMelody->output("pitch").set(pitches);
     predominantMelody->output("pitchConfidence").set(pitchConfidences);
     
-    //pool.add("tonal.predominant_melody.pitch",pitches);
-    //pool.add("tonal.predominant_melody.pitch_confidence",pitchConfidences);
+    pool.add("tonal.predominant_melody.pitch",pitches);
+    pool.add("tonal.predominant_melody.pitch_confidence",pitchConfidences);
     
     predominantMelody->compute();
     
-    printf(".");
-    
-    float tm = 0.0;
+    /*float tm = 0.0;
     for (int i = 0; i<pitches.size(); i++)
     {
         tm = tm + float(hopsize)/float(sr);
         printf("\n%f %f %f",pitches[i], pitchConfidences[i], tm);
         output[i]=pitches[i];
-    }
+    }*/
     
-    /*
     const std::vector<essentia::Real>& pitchesR = pool.value<std::vector<essentia::Real> >("tonal.predominant_melody.pitch");
     
     const std::vector<essentia::Real>& confidenceR = pool.value<std::vector<essentia::Real> >("tonal.predominant_melody.pitch_confidence");
@@ -98,7 +133,7 @@ void Melody::calculatePredominantMelody(float* _audio, float* output) {
         tm = tm + float(hopsize)/float(sr);
         printf("%f %f %f",pitchesR[i], confidenceR[i], tm);
         output[i]=pitchesR[i];
-    }*/
+    }
     
     // clean up
     delete predominantMelody;

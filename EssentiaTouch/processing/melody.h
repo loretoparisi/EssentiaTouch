@@ -26,7 +26,8 @@ namespace standard {
     
     void initEssentia();
     void shutDownEssentia();
-    void calculatePredominantMelody(float*audio,float* output);
+    void calculatePredominantMelody(float*audio,float* output, int numSamples);
+    void calculateOnset(float*audio,float* output, int numSamples);
     
 };
 

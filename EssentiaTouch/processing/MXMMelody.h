@@ -22,6 +22,7 @@ namespace essentia {
 
 -(void)initEssentia;
 -(void)shutDown;
--(void)calculatePredominantMelody:(float*)audio andResult:(float*)output;
+-(void)calculatePredominantMelody:(float*)audio andResult:(float*)output andSamples:(int)numSamples;
+-(void)calculateOnset:(float*)audio andResult:(float*)output andSamples:(int)numSamples;
 
 @end

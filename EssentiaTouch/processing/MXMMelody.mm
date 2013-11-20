@@ -38,10 +38,12 @@
 
 }
 
--(void)calculatePredominantMelody:(float*)audio andResult:(float*)output {
+-(void)calculatePredominantMelody:(float*)audio andResult:(float*)output andSamples:(int)numSamples {
+    melody->calculatePredominantMelody(audio, output, numSamples);
+}
 
-    melody->calculatePredominantMelody(audio, output);
-    
+-(void)calculateOnset:(float*)audio andResult:(float*)output andSamples:(int)numSamples {
+    melody->calculateOnset(audio, output, numSamples);
 }
 
 @end
