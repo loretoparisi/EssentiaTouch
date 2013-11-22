@@ -19,3 +19,22 @@ DerivedData
 
 #CocoaPods
 Pods
+
+*.obj
+*.log
+*.tlog
+*.pch
+pri.*
+priconfig.*
+qualifiers.*
+resources.resfiles
+layout.resfiles.*
+layout.resfiles
+resources.resfiles.intermediate
+*.pdb
+*.idb
+*.suo
+*.sdf
+MultipleQualifiersPerDimensionFound.txt
+*.ipch
+.git.bak

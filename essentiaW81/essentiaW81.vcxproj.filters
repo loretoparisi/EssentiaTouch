@@ -1,0 +1,1374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="essentia">
+      <UniqueIdentifier>{78c8ee5f-2553-46a8-b77d-61c89d5c0e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithms">
+      <UniqueIdentifier>{dd6177d7-ba01-4f5b-9e5a-6aee76e2ef65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="essentiaW81.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\parameter.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\pool.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\range.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\stringutil.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\scheduler\network.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\scheduler\networkparser.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\accumulatoralgorithm.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\algorithms\devnull.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\algorithms\poolstorage.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\sinkbase.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\sourcebase.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\streamingalgorithm.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\streamingalgorithmcomposite.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\streamingalgorithmwrapper.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\asciidag.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\asciidagparser.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\audiocontext.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\splineutil.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\yamlast.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\algorithm.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\configurable.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\connector.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\debugging.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\essentia.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\essentiautil.cpp">
+      <Filter>essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\complex\cartesiantopolar.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\complex\magnitude.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\complex\polartocartesian.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\experimental\beatogram.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\experimental\meter.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\barkextractor.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\extractor.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\keyextractor.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\levelextractor.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\lowlevelspectraleqloudextractor.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\lowlevelspectralextractor.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\rhythmdescriptors.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\tonalextractor.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\tuningfrequencyextractor.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\allpass.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\bandpass.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\bandreject.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\dcremoval.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\equalloudness.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\highpass.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\iir.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\lowpass.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\movingaverage.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\danceability.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\dynamiccomplexity.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\fadedetection.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\gaiatransform.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\harmonicbpm.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\intensity.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\onsetrate.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\pca.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\sbic.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\audioloader.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\audioonsetsmarker.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\audiowriter.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\easyloader.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\eqloudloader.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\fileoutputproxy.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\metadatareader.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\monoloader.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\monowriter.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\ringbufferinput.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\ringbufferoutput.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\ringbuffervectoroutput.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\yamlinput.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\yamloutput.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\beatsloudness.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\beattrackerdegara.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\beattrackermultifeature.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\bpmhistogram.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\bpmhistogramdescriptors.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\bpmrubato.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\noveltycurve.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\noveltycurvefixedbpmestimator.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\onsetdetection.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\onsetdetectionglobal.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\onsets.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\rhythmextractor.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\rhythmextractor2013.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\rhythmtransform.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\singlebeatloudness.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\temposcalebands.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\tempotap.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\tempotapdegara.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\tempotapmaxagreement.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\tempotapticks.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\aftermaxtobeforemaxenergyratio.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\derivativesfx.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\flatnesssfx.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\logattacktime.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\maxtototal.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\mintototal.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\pitchsalience.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\strongdecay.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\tctototal.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\barkbands.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\energyband.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\energybandratio.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\erbbands.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\flatnessdb.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\flux.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\frequencybands.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\gfcc.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\hfc.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\hpcp.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\maxmagfreq.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\melbands.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\mfcc.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\panning.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\rolloff.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\spectralcomplexity.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\spectralcontrast.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\spectralpeaks.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\spectralwhitening.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\strongpeak.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\autocorrelation.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\binaryoperator.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\bpf.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\clipper.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\crosscorrelation.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\cubicspline.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\dct.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\derivative.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\envelope.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\fftw.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\framecutter.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\ifftw.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\monomixer.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\multiplexer.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\noiseadder.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\peakdetection.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\powerspectrum.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\realaccumulator.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\replaygain.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\resample.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\scale.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\silencerate.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\slicer.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\spectrum.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\spline.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\startstopsilence.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\stereodemuxer.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\trimmer.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\unaryoperator.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\warpedautocorrelation.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\windowing.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\centralmoments.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\centroid.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\crest.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\decrease.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\distributionshape.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\energy.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\flatness.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\geometricmean.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\instantpower.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\mean.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\median.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\poolaggregator.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\powermean.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\rawmoments.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\rms.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\singlegaussian.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\variance.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\duration.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\effectiveduration.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\larm.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\leq.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\loudness.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\loudnessvickers.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\lpc.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\zerocrossingrate.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\chordsdescriptors.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\chordsdetection.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\dissonance.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\harmonicpeaks.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\highresolutionfeatures.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\inharmonicity.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\key.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\oddtoevenharmonicenergyratio.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchcontours.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchcontoursmelody.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchfiltermakam.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchsaliencefunction.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchsaliencefunctionpeaks.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchyinfft.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\predominantmelody.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\tonicindianartmusic.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\tristimulus.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\tuningfrequency.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\essentia_algorithms_reg.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="essentiaW81.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\essentiautil.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\iotypewrappers.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\iotypewrappers_impl.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\parameter.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\pool.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\range.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\roguevector.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streamconnector.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streamutil.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\stringutil.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\threading.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\types.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\scheduler\graphutils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\scheduler\network.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\scheduler\networkparser.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\accumulatoralgorithm.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\copy.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\devnull.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\diskwriter.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\fileoutput.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\poolstorage.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\vectorinput.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\vectoroutput.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\multiratebuffer.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\phantombuffer.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\phantombuffer_impl.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sink.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sinkbase.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sinkproxy.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\source.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sourcebase.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sourceproxy.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\streamingalgorithm.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\streamingalgorithmcomposite.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\streamingalgorithmwrapper.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\asciidag.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\asciidagparser.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\atomic.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\audiocontext.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\betools.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\bpfutil.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\bpmutil.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\MersenneTwister.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\metadatautils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\output.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\peak.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\ringbufferimpl.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\splineutil.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_cholesky.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_eig.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_lu.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_qr.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_svd.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt2essentiautils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt2vector.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array1d.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array1d_utils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array2d.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array2d_utils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array3d.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array3d_utils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_cmat.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array1d.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array1d_utils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array2d.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array2d_utils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array3d.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array3d_utils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_i_refvec.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_math_utils.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_sparse_matrix_csr.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_stopwatch.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_subscript.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_vec.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_version.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\yamlast.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\algorithm.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\algorithmfactory.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\algorithmfactory_impl.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\config.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\configurable.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\connector.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\debugging.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\essentia.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\essentia\essentiamath.h">
+      <Filter>essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\complex\cartesiantopolar.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\complex\magnitude.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\complex\polartocartesian.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\experimental\beatogram.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\experimental\meter.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\barkextractor.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\extractor.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\keyextractor.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\levelextractor.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\lowlevelspectraleqloudextractor.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\lowlevelspectralextractor.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\rhythmdescriptors.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\tonalextractor.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\tuningfrequencyextractor.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\allpass.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\bandpass.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\bandreject.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\dcremoval.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\equalloudness.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\highpass.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\iir.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\lowpass.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\movingaverage.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\danceability.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\dynamiccomplexity.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\fadedetection.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\gaiatransform.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\harmonicbpm.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\intensity.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\onsetrate.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\pca.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\sbic.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\audioloader.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\audioonsetsmarker.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\audiowriter.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\easyloader.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\eqloudloader.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\fileoutputproxy.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\metadatareader.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\monoloader.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\monowriter.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\ringbufferinput.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\ringbufferoutput.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\ringbuffervectoroutput.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\yamlinput.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\yamloutput.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\beatsloudness.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\beattrackerdegara.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\beattrackermultifeature.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\bpmhistogram.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\bpmhistogramdescriptors.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\bpmrubato.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\noveltycurve.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\noveltycurvefixedbpmestimator.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\onsetdetection.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\onsetdetectionglobal.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\onsets.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\rhythmextractor.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\rhythmextractor2013.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\rhythmtransform.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\singlebeatloudness.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\temposcalebands.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\tempotap.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\tempotapdegara.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\tempotapmaxagreement.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\tempotapticks.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\aftermaxtobeforemaxenergyratio.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\derivativesfx.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\flatnesssfx.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\logattacktime.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\maxtototal.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\mintototal.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\pitchsalience.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\strongdecay.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\tctototal.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\barkbands.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\energyband.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\energybandratio.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\erbbands.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\flatnessdb.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\flux.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\frequencybands.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\gfcc.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\hfc.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\hpcp.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\maxmagfreq.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\melbands.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\mfcc.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\panning.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\rolloff.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\spectralcomplexity.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\spectralcontrast.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\spectralpeaks.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\spectralwhitening.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\strongpeak.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\autocorrelation.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\binaryoperator.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\bpf.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\clipper.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\crosscorrelation.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\cubicspline.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\dct.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\derivative.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\envelope.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\fftw.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\framecutter.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\ifftw.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\monomixer.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\multiplexer.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\noiseadder.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\peakdetection.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\powerspectrum.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\realaccumulator.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\replaygain.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\resample.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\scale.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\silencerate.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\slicer.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\spectrum.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\spline.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\startstopsilence.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\stereodemuxer.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\trimmer.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\unaryoperator.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\warpedautocorrelation.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\windowing.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\centralmoments.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\centroid.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\crest.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\decrease.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\distributionshape.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\energy.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\flatness.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\geometricmean.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\instantpower.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\mean.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\median.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\poolaggregator.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\powermean.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\rawmoments.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\rms.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\singlegaussian.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\variance.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\duration.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\effectiveduration.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\larm.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\leq.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\loudness.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\loudnessvickers.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\lpc.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\zerocrossingrate.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\chordsdescriptors.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\chordsdetection.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\dissonance.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\harmonicpeaks.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\highresolutionfeatures.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\inharmonicity.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\key.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\oddtoevenharmonicenergyratio.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchcontours.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchcontoursmelody.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchfiltermakam.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchsaliencefunction.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchsaliencefunctionpeaks.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchyinfft.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\predominantmelody.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\tonicindianartmusic.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\tristimulus.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\tuningfrequency.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

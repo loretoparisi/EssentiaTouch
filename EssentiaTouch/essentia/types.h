@@ -20,6 +20,11 @@
 #ifndef ESSENTIA_TYPES_H
 #define ESSENTIA_TYPES_H
 
+#include "config.h"
+
+#ifdef OS_WIN32
+#include<algorithm>
+#endif
 #include <map>
 #include <vector>
 #include <cctype>
@@ -48,13 +53,22 @@ typedef int64_t sint64;
 typedef unsigned int uint;
 
 #else // OS_WIN32
-
+#define constexpr
 typedef unsigned __int16 uint16;
 typedef unsigned __int32 uint32;
 typedef unsigned __int64 uint64;
 typedef __int16 sint16;
 typedef __int32 sint32;
 typedef __int64 sint64;
+/*
+namespace std {
+	template <class T> const T& min(const T& a, const T& b) {
+		return !(b<a) ? a : b;     // or: return !comp(b,a)?a:b; for version (2)
+	}
+	template <class T> const T& max(const T& a, const T& b) {
+		return !(b>a) ? a : b;     // or: return !comp(b,a)?a:b; for version (2)
+	}
+}*/
 
 #endif // OS_WIN32
 

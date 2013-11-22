@@ -691,8 +691,17 @@ void sortpair(std::vector<T>& v1, std::vector<U>& v2) {
   }
   int size = v1.size();
   std::vector<std::pair<T, U> > tmp(size);
-  for (int i=0; i<size; i++)
-    tmp[i] = std::make_pair<T,U>(v1[i], v2[i]);
+  for (int i = 0; i < size; i++) {
+	
+	  std::pair<T, U> xpair( v1[i], v2[i] );
+	  tmp[i] = xpair;
+
+	  //T&& tmpt= 0;// = &v1[i];
+	  //U&& tmpu= 1;//  = &v2[i];
+	  //std::make_pair<T, U>(tmpt, tmpu);
+
+	  //tmp[i] = std::make_pair<T, U>(v1[i], v2[i]);
+  }
   std::sort(tmp.begin(), tmp.end(), PairCompare<T, U, Comparator>());
   for (int i=0; i<size; i++) {
     v1[i] = tmp[i].first;

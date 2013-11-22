@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugW81|ARM">
+      <Configuration>DebugW81</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugW81|Win32">
+      <Configuration>DebugW81</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugW81|x64">
+      <Configuration>DebugW81</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseW81|ARM">
+      <Configuration>ReleaseW81</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseW81|Win32">
+      <Configuration>ReleaseW81</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseW81|x64">
+      <Configuration>ReleaseW81</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{f0d9593c-a84a-4515-a181-f70493eb7faf}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>essentiaW81</ProjectName>
+    <RootNamespace>essentiaW81</RootNamespace>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <ApplicationTypeRevision>8.1</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\EssentiaTouch;$(SolutionDir)\..\EssentiaTouch\essentia;$(SolutionDir)\..\EssentiaTouch\essentia\streaming;$(SolutionDir)\..\EssentiaTouch\essentia\streaming\algorithms;$(SolutionDir)\..\EssentiaTouch\essentia\scheduler;$(SolutionDir)\..\EssentiaTouch\essentia\utils;$(SolutionDir)\..\EssentiaTouch\essentia\utils\tnt;$(SolutionDir)\..\..\libfftw-win\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\EssentiaTouch;$(SolutionDir)\..\EssentiaTouch\essentia;$(SolutionDir)\..\EssentiaTouch\essentia\streaming;$(SolutionDir)\..\EssentiaTouch\essentia\streaming\algorithms;$(SolutionDir)\..\EssentiaTouch\essentia\scheduler;$(SolutionDir)\..\EssentiaTouch\essentia\utils;$(SolutionDir)\..\EssentiaTouch\essentia\utils\tnt;$(SolutionDir)\..\..\libfftw-win\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugW81|arm'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\EssentiaTouch;$(SolutionDir)\..\EssentiaTouch\essentia;$(SolutionDir)\..\EssentiaTouch\essentia\streaming;$(SolutionDir)\..\EssentiaTouch\essentia\streaming\algorithms;$(SolutionDir)\..\EssentiaTouch\essentia\scheduler;$(SolutionDir)\..\EssentiaTouch\essentia\utils;$(SolutionDir)\..\EssentiaTouch\essentia\utils\tnt;$(SolutionDir)\..\..\libfftw-win\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|arm'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\EssentiaTouch;$(SolutionDir)\..\EssentiaTouch\essentia;$(SolutionDir)\..\EssentiaTouch\essentia\streaming;$(SolutionDir)\..\EssentiaTouch\essentia\streaming\algorithms;$(SolutionDir)\..\EssentiaTouch\essentia\scheduler;$(SolutionDir)\..\EssentiaTouch\essentia\utils;$(SolutionDir)\..\EssentiaTouch\essentia\utils\tnt;$(SolutionDir)\..\..\libfftw-win\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\EssentiaTouch;$(SolutionDir)\..\EssentiaTouch\essentia;$(SolutionDir)\..\EssentiaTouch\essentia\streaming;$(SolutionDir)\..\EssentiaTouch\essentia\streaming\algorithms;$(SolutionDir)\..\EssentiaTouch\essentia\scheduler;$(SolutionDir)\..\EssentiaTouch\essentia\utils;$(SolutionDir)\..\EssentiaTouch\essentia\utils\tnt;$(SolutionDir)\..\..\libfftw-win\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\EssentiaTouch;$(SolutionDir)\..\EssentiaTouch\essentia;$(SolutionDir)\..\EssentiaTouch\essentia\streaming;$(SolutionDir)\..\EssentiaTouch\essentia\streaming\algorithms;$(SolutionDir)\..\EssentiaTouch\essentia\scheduler;$(SolutionDir)\..\EssentiaTouch\essentia\utils;$(SolutionDir)\..\EssentiaTouch\essentia\utils\tnt;$(SolutionDir)\..\..\libfftw-win\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <GenerateWindowsMetadata>false</GenerateWindowsMetadata>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\EssentiaTouch\algorithms\complex\cartesiantopolar.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\complex\magnitude.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\complex\polartocartesian.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\experimental\beatogram.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\experimental\meter.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\barkextractor.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\extractor.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\keyextractor.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\levelextractor.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\lowlevelspectraleqloudextractor.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\lowlevelspectralextractor.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\rhythmdescriptors.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\tonalextractor.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\extractor\tuningfrequencyextractor.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\allpass.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\bandpass.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\bandreject.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\dcremoval.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\equalloudness.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\highpass.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\iir.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\lowpass.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\filters\movingaverage.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\danceability.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\dynamiccomplexity.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\fadedetection.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\gaiatransform.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\harmonicbpm.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\intensity.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\onsetrate.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\pca.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\highlevel\sbic.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\audioloader.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\audioonsetsmarker.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\audiowriter.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\easyloader.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\eqloudloader.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\fileoutputproxy.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\metadatareader.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\monoloader.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\monowriter.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\ringbufferinput.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\ringbufferoutput.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\ringbuffervectoroutput.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\yamlinput.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\EssentiaTouch\algorithms\io\yamloutput.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\beatsloudness.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\beattrackerdegara.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\beattrackermultifeature.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\bpmhistogram.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\bpmhistogramdescriptors.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\bpmrubato.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\noveltycurve.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\noveltycurvefixedbpmestimator.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\onsetdetection.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\onsetdetectionglobal.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\onsets.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\rhythmextractor.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\rhythmextractor2013.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\rhythmtransform.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\singlebeatloudness.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\temposcalebands.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\tempotap.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\tempotapdegara.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\tempotapmaxagreement.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\rhythm\tempotapticks.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\aftermaxtobeforemaxenergyratio.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\derivativesfx.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\flatnesssfx.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\logattacktime.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\maxtototal.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\mintototal.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\pitchsalience.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\strongdecay.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\sfx\tctototal.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\barkbands.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\energyband.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\energybandratio.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\erbbands.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\flatnessdb.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\flux.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\frequencybands.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\gfcc.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\hfc.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\hpcp.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\maxmagfreq.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\melbands.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\mfcc.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\panning.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\rolloff.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\spectralcomplexity.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\spectralcontrast.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\spectralpeaks.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\spectralwhitening.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\spectral\strongpeak.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\autocorrelation.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\binaryoperator.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\bpf.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\clipper.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\crosscorrelation.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\cubicspline.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\dct.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\derivative.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\envelope.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\fftw.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\framecutter.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\ifftw.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\monomixer.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\multiplexer.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\noiseadder.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\peakdetection.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\powerspectrum.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\realaccumulator.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\replaygain.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\resample.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\scale.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\silencerate.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\slicer.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\spectrum.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\spline.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\startstopsilence.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\stereodemuxer.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\trimmer.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\unaryoperator.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\warpedautocorrelation.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\standard\windowing.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\centralmoments.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\centroid.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\crest.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\decrease.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\distributionshape.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\energy.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\flatness.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\geometricmean.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\instantpower.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\mean.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\median.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\poolaggregator.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\powermean.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\rawmoments.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\rms.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\singlegaussian.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\stats\variance.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\duration.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\effectiveduration.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\larm.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\leq.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\loudness.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\loudnessvickers.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\lpc.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\temporal\zerocrossingrate.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\chordsdescriptors.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\chordsdetection.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\dissonance.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\harmonicpeaks.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\highresolutionfeatures.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\inharmonicity.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\key.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\oddtoevenharmonicenergyratio.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchcontours.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchcontoursmelody.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchfiltermakam.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchsaliencefunction.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchsaliencefunctionpeaks.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\pitchyinfft.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\predominantmelody.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\tonicindianartmusic.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\tristimulus.h" />
+    <ClInclude Include="..\EssentiaTouch\algorithms\tonal\tuningfrequency.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\algorithm.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\algorithmfactory.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\algorithmfactory_impl.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\config.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\configurable.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\connector.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\debugging.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\essentia.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\essentiamath.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\essentiautil.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\iotypewrappers.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\iotypewrappers_impl.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\parameter.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\pool.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\range.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\roguevector.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\scheduler\graphutils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\scheduler\network.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\scheduler\networkparser.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streamconnector.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\accumulatoralgorithm.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\copy.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\devnull.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\diskwriter.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\fileoutput.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\poolstorage.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\vectorinput.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\algorithms\vectoroutput.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\multiratebuffer.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\phantombuffer.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\phantombuffer_impl.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sink.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sinkbase.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sinkproxy.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\source.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sourcebase.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\sourceproxy.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\streamingalgorithm.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\streamingalgorithmcomposite.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streaming\streamingalgorithmwrapper.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\streamutil.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\stringutil.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\threading.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\types.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\asciidag.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\asciidagparser.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\atomic.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\audiocontext.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\betools.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\bpfutil.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\bpmutil.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\MersenneTwister.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\metadatautils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\output.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\peak.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\ringbufferimpl.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\splineutil.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_cholesky.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_eig.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_lu.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_qr.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\jama_svd.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt2essentiautils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt2vector.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array1d.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array1d_utils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array2d.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array2d_utils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array3d.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_array3d_utils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_cmat.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array1d.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array1d_utils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array2d.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array2d_utils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array3d.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_fortran_array3d_utils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_i_refvec.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_math_utils.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_sparse_matrix_csr.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_stopwatch.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_subscript.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_vec.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\tnt\tnt_version.h" />
+    <ClInclude Include="..\EssentiaTouch\essentia\utils\yamlast.h" />
+    <ClInclude Include="essentiaW81.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\EssentiaTouch\algorithms\complex\cartesiantopolar.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\complex\magnitude.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\complex\polartocartesian.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\essentia_algorithms_reg.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\experimental\beatogram.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\experimental\meter.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\barkextractor.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\extractor.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\keyextractor.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\levelextractor.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\lowlevelspectraleqloudextractor.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\lowlevelspectralextractor.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\rhythmdescriptors.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\tonalextractor.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\extractor\tuningfrequencyextractor.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\allpass.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\bandpass.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\bandreject.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\dcremoval.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\equalloudness.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\highpass.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\iir.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\lowpass.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\filters\movingaverage.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\danceability.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\dynamiccomplexity.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\fadedetection.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\gaiatransform.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\harmonicbpm.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\intensity.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\onsetrate.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\pca.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\highlevel\sbic.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\audioloader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\audioonsetsmarker.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\audiowriter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\easyloader.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\eqloudloader.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\fileoutputproxy.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\metadatareader.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\monoloader.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\monowriter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\ringbufferinput.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\ringbufferoutput.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\ringbuffervectoroutput.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\yamlinput.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\io\yamloutput.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\beatsloudness.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\beattrackerdegara.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\beattrackermultifeature.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\bpmhistogram.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\bpmhistogramdescriptors.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\bpmrubato.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\noveltycurve.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\noveltycurvefixedbpmestimator.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\onsetdetection.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\onsetdetectionglobal.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\onsets.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\rhythmextractor.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\rhythmextractor2013.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\rhythmtransform.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\singlebeatloudness.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\temposcalebands.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\tempotap.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\tempotapdegara.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\tempotapmaxagreement.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\rhythm\tempotapticks.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\aftermaxtobeforemaxenergyratio.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\derivativesfx.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\flatnesssfx.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\logattacktime.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\maxtototal.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\mintototal.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\pitchsalience.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\strongdecay.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\sfx\tctototal.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\barkbands.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\energyband.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\energybandratio.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\erbbands.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\flatnessdb.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\flux.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\frequencybands.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\gfcc.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\hfc.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\hpcp.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\maxmagfreq.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\melbands.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\mfcc.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\panning.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\rolloff.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\spectralcomplexity.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\spectralcontrast.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\spectralpeaks.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\spectralwhitening.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\spectral\strongpeak.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\autocorrelation.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\binaryoperator.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\bpf.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\clipper.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\crosscorrelation.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\cubicspline.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\dct.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\derivative.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\envelope.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\fftw.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\framecutter.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\ifftw.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\monomixer.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\multiplexer.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\noiseadder.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\peakdetection.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\powerspectrum.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\realaccumulator.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\replaygain.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\resample.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\scale.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\silencerate.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\slicer.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\spectrum.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\spline.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\startstopsilence.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\stereodemuxer.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\trimmer.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\unaryoperator.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\warpedautocorrelation.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\standard\windowing.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\centralmoments.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\centroid.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\crest.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\decrease.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\distributionshape.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\energy.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\flatness.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\geometricmean.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\instantpower.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\mean.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\median.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\poolaggregator.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\powermean.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\rawmoments.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\rms.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\singlegaussian.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\stats\variance.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\duration.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\effectiveduration.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\larm.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\leq.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\loudness.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\loudnessvickers.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\lpc.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\temporal\zerocrossingrate.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\chordsdescriptors.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\chordsdetection.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\dissonance.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\harmonicpeaks.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\highresolutionfeatures.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\inharmonicity.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\key.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\oddtoevenharmonicenergyratio.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchcontours.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchcontoursmelody.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchfiltermakam.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchsaliencefunction.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchsaliencefunctionpeaks.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\pitchyinfft.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\predominantmelody.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\tonicindianartmusic.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\tristimulus.cpp" />
+    <ClCompile Include="..\EssentiaTouch\algorithms\tonal\tuningfrequency.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\algorithm.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\configurable.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\connector.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\debugging.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\essentia.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\essentiautil.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\parameter.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\pool.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\range.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\scheduler\network.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\scheduler\networkparser.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\accumulatoralgorithm.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\algorithms\devnull.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\algorithms\poolstorage.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\sinkbase.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\sourcebase.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\streamingalgorithm.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\streamingalgorithmcomposite.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\streaming\streamingalgorithmwrapper.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\stringutil.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\asciidag.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\asciidagparser.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\audiocontext.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\splineutil.cpp" />
+    <ClCompile Include="..\EssentiaTouch\essentia\utils\yamlast.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="essentiaW81.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugW81|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugW81|ARM'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|ARM'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugW81|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseW81|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

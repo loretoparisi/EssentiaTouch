@@ -123,9 +123,10 @@
   typedef unsigned int uint;
 
   #define strcasecmp _stricmp
-
+  // windows CriticalSection implementation
+  #include <windows.h>
   #include <float.h>
-
+  /*
   namespace std {
     template <typename T>
     inline bool isnan(T x) {
@@ -135,7 +136,9 @@
     inline bool isinf(T x) {
       return _finite(x) == 0;
     }
-  }
+  }*/
+  typedef unsigned __int64 uint64_t;
+
 #endif // OS_WIN32
 
 
@@ -157,8 +160,8 @@ typedef unsigned int uint;
 // unless they have been marked with an ESSENTIA_API qualifier.
 // See http://gcc.gnu.org/wiki/Visibility for more information on the subject.
 #ifdef OS_WIN32
-#  define ESSENTIA_DLLEXPORT __declspec(dllexport)
-#  define ESSENTIA_DLLIMPORT __declspec(dllimport)
+#  define ESSENTIA_DLLEXPORT	//__declspec(dllexport)
+#  define ESSENTIA_DLLIMPORT	//__declspec(dllimport)
 #else
 #  if (GCC_VERSION >= 40000)
 #    define ESSENTIA_DLLEXPORT __attribute__ ((visibility("default")))

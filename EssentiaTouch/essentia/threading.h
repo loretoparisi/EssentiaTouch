@@ -60,7 +60,7 @@ class ForcedMutex {
  protected:
   CRITICAL_SECTION criticalSection;
  public:
-  ForcedMutex()  { InitializeCriticalSection(&criticalSection); }
+  ForcedMutex()  { InitializeCriticalSectionEx(&criticalSection,0,0); }
   ~ForcedMutex() { DeleteCriticalSection(&criticalSection); }
   void lock()    { EnterCriticalSection(&criticalSection); }
   void unlock()  { LeaveCriticalSection(&criticalSection); }

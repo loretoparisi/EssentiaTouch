@@ -2,7 +2,7 @@
 #include "algorithms/rhythm/rhythmextractor2013.h"
 #include "algorithms/extractor/rhythmdescriptors.h"
 #include "algorithms/standard/stereodemuxer.h"
-#include "algorithms/io/ringbuffervectoroutput.h"
+//#include "algorithms/io/ringbuffervectoroutput.h"
 #include "algorithms/sfx/maxtototal.h"
 #include "algorithms/tonal/harmonicpeaks.h"
 #include "algorithms/spectral/maxmagfreq.h"
@@ -18,7 +18,7 @@
 #include "algorithms/spectral/gfcc.h"
 #include "algorithms/standard/noiseadder.h"
 //#include "algorithms/io/monowriter.h"
-#include "algorithms/io/ringbufferoutput.h"
+//#include "algorithms/io/ringbufferoutput.h"
 #include "algorithms/standard/autocorrelation.h"
 #include "algorithms/standard/dct.h"
 #include "algorithms/rhythm/tempotap.h"
@@ -150,7 +150,7 @@
 #include "algorithms/spectral/flux.h"
 #include "algorithms/standard/crosscorrelation.h"
 #include "algorithms/highlevel/fadedetection.h"
-#include "algorithms/io/ringbufferinput.h"
+//#include "algorithms/io/ringbufferinput.h"
 #include "algorithms/rhythm/temposcalebands.h"
 #include "algorithms/complex/polartocartesian.h"
 #include "algorithms/spectral/erbbands.h"
@@ -344,7 +344,7 @@ ESSENTIA_API void registerAlgorithm() {
     AlgorithmFactory::Registrar<RhythmExtractor2013, essentia::standard::RhythmExtractor2013> regRhythmExtractor2013;
     AlgorithmFactory::Registrar<RhythmDescriptors, essentia::standard::RhythmDescriptors> regRhythmDescriptors;
     AlgorithmFactory::Registrar<StereoDemuxer, essentia::standard::StereoDemuxer> regStereoDemuxer;
-    AlgorithmFactory::Registrar<RingBufferVectorOutput> regRingBufferVectorOutput;
+//    AlgorithmFactory::Registrar<RingBufferVectorOutput> regRingBufferVectorOutput;
     AlgorithmFactory::Registrar<MaxToTotal, essentia::standard::MaxToTotal> regMaxToTotal;
     AlgorithmFactory::Registrar<HarmonicPeaks, essentia::standard::HarmonicPeaks> regHarmonicPeaks;
     AlgorithmFactory::Registrar<MaxMagFreq, essentia::standard::MaxMagFreq> regMaxMagFreq;
@@ -360,7 +360,7 @@ ESSENTIA_API void registerAlgorithm() {
     AlgorithmFactory::Registrar<GFCC, essentia::standard::GFCC> regGFCC;
     AlgorithmFactory::Registrar<NoiseAdder, essentia::standard::NoiseAdder> regNoiseAdder;
  //   AlgorithmFactory::Registrar<MonoWriter, essentia::standard::MonoWriter> regMonoWriter;
-    AlgorithmFactory::Registrar<RingBufferOutput> regRingBufferOutput;
+//    AlgorithmFactory::Registrar<RingBufferOutput> regRingBufferOutput;
     AlgorithmFactory::Registrar<AutoCorrelation, essentia::standard::AutoCorrelation> regAutoCorrelation;
     AlgorithmFactory::Registrar<DCT, essentia::standard::DCT> regDCT;
     AlgorithmFactory::Registrar<TempoTap, essentia::standard::TempoTap> regTempoTap;
@@ -486,7 +486,7 @@ ESSENTIA_API void registerAlgorithm() {
     AlgorithmFactory::Registrar<Flux, essentia::standard::Flux> regFlux;
     AlgorithmFactory::Registrar<CrossCorrelation, essentia::standard::CrossCorrelation> regCrossCorrelation;
     AlgorithmFactory::Registrar<FadeDetection, essentia::standard::FadeDetection> regFadeDetection;
-    AlgorithmFactory::Registrar<RingBufferInput> regRingBufferInput;
+//    AlgorithmFactory::Registrar<RingBufferInput> regRingBufferInput;
     AlgorithmFactory::Registrar<TempoScaleBands, essentia::standard::TempoScaleBands> regTempoScaleBands;
     AlgorithmFactory::Registrar<PolarToCartesian, essentia::standard::PolarToCartesian> regPolarToCartesian;
     AlgorithmFactory::Registrar<ERBBands, essentia::standard::ERBBands> regERBBands;
